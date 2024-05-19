@@ -97,7 +97,7 @@ class Foglalas:
         self.datum = datum  # A foglalás dátuma
 
 def felhasznaloi_felulet():
-    szalloda = Szalloda("Példa Szálloda")
+    szalloda = Szalloda("GDE Szálloda")
     szalloda.szoba_hozzaadasa(EgyagyasSzoba(10000, 101))
     szalloda.szoba_hozzaadasa(EgyagyasSzoba(10000, 102))
     szalloda.szoba_hozzaadasa(KetagyasSzoba(15000, 201))
